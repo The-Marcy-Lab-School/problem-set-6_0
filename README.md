@@ -24,7 +24,6 @@
     - This session data is stored on the server and every time you visit the page again your session will be recognized because of the cookie. 
     
 
-
 3. What is the difference between HTTP and HTTPS?
 
 - In HTTPS, there are encrypted connections. It allows secure transactions by encrypting the entire communication with a combination of SSL/TLS protocol and HTTP. 
@@ -32,10 +31,17 @@
 
 
 4. Security is an important concept for web applications. What are two ways we can try to prevent a user's session from being highjacked?
+- There are a few ways to prevent a session being highjacked.
+    - Resetting a session by having authentication systems in place that will render an old session id invalid and create a new one. 
+    - Giving sessions an expiration to narrow the access an attacker has to an app.
+    - Use HTTPS across the entire app to minimize the chance that an attacker can get to the session id.
 
 
 
 5. What is the Same Origin Policy? What about CORS? How are they related?
+- The same-origin policy allows unrestricted interaction between resources originating from the same origin but restricts certain interactions between resources originating from different url schemes. Same-origin policy doesn't restrict all cross-origin requests.
+
+- CORS allows interactions that would normally be restricted cross-origin. It adds new HTTP headers, which allow servers to serve resources cross-origin to certain specified origins. 
 
 
 
@@ -44,3 +50,6 @@
 
 
 7. What are request and response _headers_? Why are they important?
+- Request headers contain more information about the resource to be fetched, or about the client requesting the resource.
+- Response headers hold additional information about the response, like its location or about the server providing it.
+- Headers allow servers and clients to send more information.
