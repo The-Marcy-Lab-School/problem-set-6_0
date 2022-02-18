@@ -4,7 +4,7 @@
 
 1. HTTP is a "stateless" protocol - what does this mean?
 
-2. Given that HTTP is a stateless protocol, how do we build "stateful" web applications.
+2. Given that HTTP is a stateless protocol, how do we build "stateful" web applications?
 
 3. What is the difference between HTTP and HTTPS?
 
