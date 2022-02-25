@@ -12,6 +12,6 @@
 
 5. What is the Same Origin Policy? What about CORS? How are they related?
 
-6. Using cURL, make requests to https://www.reddit.com/r/programming and https://www.reddit.com/r/programming/.json from the command line. What differences do you notice between the two different response bodies? Why is this be significant?
+6. Using cURL, make a request to https://www.reddit.com/r/programming from the command line. Then wait at least 30 seconds and make another cURL request to https://www.reddit.com/r/programming/.json. What differences do you notice between the two different response bodies? Why is this be significant?
 
 7. What are request and response _headers_? Why are they important?
