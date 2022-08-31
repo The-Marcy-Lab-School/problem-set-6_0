@@ -1,6 +1,6 @@
 # Unit 6 Lesson 0 Problem Set
 
-0. Describe, in as much detail as you can, what happens when you open up Google Chrome, type "marcylabschool.org" into the address bar, and press enter.
+0. Describe, in as much detail as you can, what happens when you open up Google Chrome, type "marcylabschool.org" into the address bar, and press enter. You answer should mention the HTTP Request/Response cycle. 
 
 1. HTTP is a "stateless" protocol - what does this mean?
 
