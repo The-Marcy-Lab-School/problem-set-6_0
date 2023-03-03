@@ -8,7 +8,7 @@
 
 3. What is the difference between HTTP and HTTPS?
 
-4. Security is an important concept for web applications. What are two ways we can try to prevent a user's session from being highjacked?
+4. Security is an important concept for web applications. What are two ways we can try to prevent a user's session from being hijacked?
 
 5. What is the Same Origin Policy? What about CORS? How are they related?
 
